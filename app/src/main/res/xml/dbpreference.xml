@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="DEFAULT_COLOR"
+        android:title="default color"
+        android:summary="add note to default color" >
+
+        <intent
+            android:action="com.example.tomcat.dbsqlitedemo.CHOOSE_COLOR"
+            android:targetPackage="com.example.tomcat.dbsqlitedemo"
+            android:targetClass="com.example.tomcat.dbsqlitedemo.ColorActivity" />
+    </Preference>
+
+    <ListPreference
+        android:key="NOTIFY_MINUTES"
+        android:title="Default Alarm timing"
+        android:summary="Before Alarm timing to notification"
+        android:entries="@array/notify_minutes_array"
+        android:entryValues="@array/notify_minutes_value_array"
+        android:defaultValue="5" />
+
+</PreferenceScreen>
