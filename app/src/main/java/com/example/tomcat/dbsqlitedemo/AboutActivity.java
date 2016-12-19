@@ -9,7 +9,6 @@ import android.view.Window;
 public class AboutActivity extends AppCompatActivity
 //public class AboutActivity extends Activity
 {
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {

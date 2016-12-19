@@ -21,7 +21,7 @@
 
         <activity
             android:name=".AboutActivity"
-            android:theme="@android:style/Theme.Dialog" />
+            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
 
         <activity android:name=".ItemActivity" >
             <intent-filter>
